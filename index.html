@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/reponsive.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo_content">
+        <div class="logo">
+          <i class="fab fa-cloudversify"></i>
+          <div class="logo_name">Duy Vu</div>
+        </div>
+        <i class="fas fa-bars" id="btn"></i>
+      </div>
+      <div class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="">
+              <i class="fas fa-home"></i>
+              <span class="header__nav-linkname">Home</span>
+            </a>
+            <span class="tool-tip">Home</span>
+          </li>
+          <li class="header__nav-item">
+            <a href="">
+              <i class="far fa-file-alt"></i>
+              <span class="header__nav-linkname">Info</span>
+            </a>
+            <span class="tool-tip">Info</span>
+          </li>
+          <li class="header__nav-item">
+            <a href="">
+              <i class="far fa-calendar-alt"></i>
+              <span class="header__nav-linkname">Calendar</span>
+            </a>
+            <span class="tool-tip">Calendar</span>
+          </li>
+          <li class="header__nav-item">
+            <a href="">
+              <i class="far fa-play-circle"></i>
+              <span class="header__nav-linkname">Play</span>
+            </a>
+            <span class="tool-tip">Play</span>
+          </li>
+          <li class="header__nav-item">
+            <a href="">
+              <i class="fas fa-cog"></i>
+              <span class="header__nav-linkname">Setting</span>
+            </a>
+            <span class="tool-tip">Setting</span>
+          </li>
+        </ul>
+      </div>
+      <div class="profile-conent">
+        <div class="profile">
+          <div class="profile_details">
+            <img src="./assets/image/avt.png" alt="" />
+            <div class="name-job">
+              <div class="name">Nguyen Duy Vu</div>
+              <div class="job">Developer</div>
+            </div>
+          </div>
+          <i class="far fa-arrow-alt-circle-left" id="log-out"></i>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="main-container">
+        <div class="main-container__info">
+          <div class="main-container__name">Hello, Duy Vu!</div>
+          <div class="main-container__decription">
+            Chao mung ban den voi MyWeb
+          </div>
+        </div>
+        <div class="main-container__films">
+          <div class="main-container__film" style="--icon: red">
+            <div class="icon">
+              <i class="fas fa-award"></i>
+            </div>
+            <div class="info">
+              <div class="info__text">
+                <div class="text__name">Phim hay</div>
+                <div class="text__chapter"><b>11</b>/122</div>
+              </div>
+              <div class="info__percent">
+                <div class="real__percent"></div>
+              </div>
+            </div>
+          </div>
+          <div class="main-container__film" style="--icon: green">
+            <div class="icon">
+              <i class="fas fa-book"></i>
+            </div>
+            <div class="info">
+              <div class="info__text">
+                <div class="text__name">Phim hay</div>
+                <div class="text__chapter"><b>11</b>/122</div>
+              </div>
+              <div class="info__percent">
+                <div class="real__percent"></div>
+              </div>
+            </div>
+          </div>
+          <div class="main-container__film" style="--icon: blue">
+            <div class="icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="info">
+              <div class="info__text">
+                <div class="text__name">Phim hay</div>
+                <div class="text__chapter"><b>11</b>/122</div>
+              </div>
+              <div class="info__percent">
+                <div class="real__percent"></div>
+              </div>
+            </div>
+          </div>
+          <div class="main-container__film" style="--icon: orange">
+            <div class="icon">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+            <div class="info">
+              <div class="info__text">
+                <div class="text__name">Phim hay</div>
+                <div class="text__chapter"><b>11</b>/122</div>
+              </div>
+              <div class="info__percent">
+                <div class="real__percent"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-container__choose">
+          <div class="text">Mot so bo phim hay</div>
+          <div class="choose">
+            <div class="choose1">
+              <p>Phim hay</p>
+              <p>phim da xem</p>
+            </div>
+            <div class="choose2">
+              <p>Sort by</p>
+              <p>Phim han</p>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="main-container__list-film">
+          <div class="film">
+            <div class="img-img">
+              <img src="./assets/image/avt.png" alt="" class="img" />
+            </div>
+            <div class="title">
+              <div class="title-top">
+                <div class="info">Sap het</div>
+                <a href=""><i class="fas fa-ellipsis-v"></i></a>
+              </div>
+              <div class="title-bot">
+                <div class="info">
+                  <div class="film__name">Hau due mat troi</div>
+                  <div class="film__author">Duy vu</div>
+                </div>
+                <div class="chapter">
+                  <div class="circle"><div class="real-circle">65%</div></div>
+                  <div class="chapter-info">
+                    <div class="chapter-number"><b>112</b>/200</div>
+                    <div class="chapter-title">oke nha</div>
+                  </div>
+                </div>
+                <a href="">Xem ngay</a>
+              </div>
+            </div>
+          </div>
+          <div class="film">
+            <img src="./assets/image/avt.png" alt="" class="img" />
+            <div class="title">
+              <div class="title-top">
+                <div class="info">Sap het</div>
+                <a href=""><i class="fas fa-ellipsis-v"></i></a>
+              </div>
+              <div class="title-bot">
+                <div class="info">
+                  <div class="film__name">Hau due mat troi</div>
+                  <div class="film__author">Duy vu</div>
+                </div>
+                <div class="chapter">
+                  <div class="circle"><div class="real-circle">65%</div></div>
+                  <div class="chapter-info">
+                    <div class="chapter-number"><b>112</b>/200</div>
+                    <div class="chapter-title">oke nha</div>
+                  </div>
+                </div>
+                <a href="">Xem ngay</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-nav">
+        <div class="current-info">
+          aasjdhagasdasdasdasdasdasdadasdasdasdasdadasasdadss
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
